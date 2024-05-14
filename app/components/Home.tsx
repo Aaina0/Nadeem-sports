@@ -1,10 +1,14 @@
-import React from 'react'
-import Hero from './Hero/Hero'
+import React from "react";
+import Hero from "./Hero/Hero";
+import Coaching from "./coaching/Coaching";
 
 function Home() {
   return (
-    <Hero/>
-  )
+    <>
+      <Hero />
+      <Coaching />
+    </>
+  );
 }
 
-export default Home
+export default Home;
